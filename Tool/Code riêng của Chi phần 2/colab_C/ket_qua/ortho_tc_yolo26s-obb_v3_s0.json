@@ -1,0 +1,46 @@
+{
+ "vong": 3,
+ "hat": 0,
+ "goc": "yolo26s-obb_v3_s0.pt",
+ "o_train": 116,
+ "o_val": 116,
+ "o_test": 15,
+ "phut": 6.6,
+ "epoch_chay": 55,
+ "truoc": {
+  "mAP50": 0.4289,
+  "mAP50_95": 0.3891,
+  "AP50_theo_lop": [
+   0.4678,
+   0.3738,
+   0.445,
+   null
+  ]
+ },
+ "sau": {
+  "mAP50": 0.71,
+  "mAP50_95": 0.6283,
+  "AP50_theo_lop": [
+   0.7561,
+   0.4789,
+   0.895,
+   null
+  ]
+ },
+ "cau_hinh": {
+  "epochs": 60,
+  "patience": 20,
+  "batch": 16,
+  "imgsz": 640,
+  "lr0": 0.001,
+  "degrees": 15,
+  "flipud": 0.5,
+  "fliplr": 0.5,
+  "mosaic": 1.0,
+  "close_mosaic": 15,
+  "optimizer": "auto",
+  "workers": 2,
+  "plots": false,
+  "verbose": false
+ }
+}
